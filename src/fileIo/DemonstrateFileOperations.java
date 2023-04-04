@@ -1,7 +1,7 @@
 package fileIo;
 import java.io.File;
 import java.io.IOException;
-public class DemostrateFileOperations {
+public class DemonstrateFileOperations {
 
         public void createFile() throws IOException {
             File f = new File("C:\\Users\\chegi\\IdeaProjects\\Ashu.csv");
@@ -29,7 +29,7 @@ public class DemostrateFileOperations {
 
 
         public static void main(String[] args) throws IOException {
-            DemostrateFileOperations file = new DemostrateFileOperations();
+            DemonstrateFileOperations file = new DemonstrateFileOperations();
             file.createFile();
             file.createFiles();
             file.checkFiles();
